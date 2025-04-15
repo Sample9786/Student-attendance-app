@@ -1,0 +1,21 @@
+li {
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    list-style: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  li.present {
+    color: green;
+    font-weight: bold;
+  }
+  
+  li.absent {
+    color: red;
+  }  
